@@ -18,7 +18,10 @@ function App() {
 	return (
 		<section>
 			<h1>
-				<PokemonCard pokemon={pokemonList[0]} />
+				<PokemonCard
+					imgSrc={pokemonList[0].imgSrc}
+					name={pokemonList[0].name}
+				/>
 			</h1>
 		</section>
 	);
